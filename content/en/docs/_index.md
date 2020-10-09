@@ -12,12 +12,12 @@ variety of sources, such as [Let's Encrypt](https://letsencrypt.org),
 [Venafi](https://www.venafi.com/), a simple signing key pair, or self
 signed.
 
-It will ensure certificates are valid and up to date, and attempt to
-renew certificates at a configured time before expiry.
+Use cert-manager to ensure that certificates are valid and current, and can even 
+renew certificates at a configured time before they expire.
 
 It is loosely based upon the work of
 [kube-lego](https://github.com/jetstack/kube-lego) and has borrowed some
-wisdom from other similar projects such as
+wisdom from similar projects such as
 [kube-cert-manager](https://github.com/PalmStoneGames/kube-cert-manager).
 
 ![High level overview diagram explaining cert-manager architecture](/images/high-level-overview.svg)
